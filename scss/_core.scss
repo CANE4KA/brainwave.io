@@ -1,0 +1,25 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    background: #fff;
+}
+
+.wrap {
+    @include min-max(320px, 1600px);
+}
+
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $black;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
